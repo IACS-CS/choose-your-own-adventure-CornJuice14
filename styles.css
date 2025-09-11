@@ -3,7 +3,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: black;
-  background-image: url("./images/background.jpg");
+  background: no-repeat fixed center;
+  background-size: 100% 100%;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/011/135/944/small_2x/sunrise-morning-with-orange-yellow-pink-blue-sky-dramatic-twilight-landscape-with-sunset-sky-in-evening-horizon-beautiful-nature-banner-of-sunrise-or-sunlight-for-four-seasons-background-vector.jpg");
   padding: 1em;
 }
 p {
@@ -13,5 +15,10 @@ p {
 h1 {
   font-size: 48pt;
   font-weight: bold;
-  color: brown;
+  font-style: story script;
+  color: rgb(0, 0, 0);
+}
+li {
+  font-size: 12pt;
+  font-family: cursive;
 }
